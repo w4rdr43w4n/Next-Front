@@ -1,0 +1,109 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./app/main.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+
+:root {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./components/styles/components.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+header {
+  background-color: rgb(0, 105, 0);
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: sans-serif;
+  font-size: 14px;
+  padding: 10px;
+  transition: 0.18s ease-in-out;
+}
+header .header-link:hover {
+  background-color: rgb(0, 90, 0);
+}
+header nav {
+  padding-left: 20px;
+}
+header .auth-options {
+  padding-right: 20px;
+}
+header div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+header div p {
+  color: yellow;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.notification {
+  top: 0;
+  background-color: #267126;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.notification p {
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+.notification button {
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  transition: 0.18s ease-in-out;
+}
+.notification button:hover {
+  background-color: rgb(0, 90, 0);
+}
+
